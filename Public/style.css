@@ -1,0 +1,75 @@
+body {
+    font-size: 0.8rem;
+}
+
+.container {
+    margin-top: 80px;
+    margin-bottom: 20px;
+}
+
+.card {
+    text-align: center;
+}
+
+
+/* ----------- Card Header ----------- */
+
+.card-header {
+    background-color: white;
+    border: none;
+}
+
+.card h2 {
+    padding-top: 5%;
+}
+
+.card button {
+    font-size: 0.8rem;
+    width: 100%;
+}
+
+.card button img {
+    width: 20px;
+    height: 20px;
+    margin-right: 4%;
+}
+
+.separator {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    line-height: 0em;
+}
+
+.separator::before,
+.separator::after {
+    content: '';
+    flex: 1;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.150);
+}
+
+.separator::before {
+    margin-right: .5em;
+}
+
+.separator::after {
+    margin-left: .5em;
+}
+
+
+/* ------------ Card Body ------------- */
+
+.card-body form input {
+    font-size: 0.9rem;
+}
+
+
+/* Modal */
+
+.modal-header button:focus {
+    outline: none;
+}
+
+#gogImg {
+    height: 50px;
+}
